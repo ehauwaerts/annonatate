@@ -1,0 +1,49 @@
+---
+canvas: "https://sharedcanvas.be/IIIF/manifests/B_OB_MS321/canvases/a2ea1078-b4d0-11ec-aae3-81789315358a"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test1",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ehauwaerts",
+                "name": "ehauwaerts"
+            },
+            "created": "2024-05-24T13:06:07.417Z",
+            "modified": "2024-05-24T13:06:08.443Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "bird",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ehauwaerts",
+                "name": "ehauwaerts"
+            },
+            "created": "2024-05-24T13:06:12.457Z",
+            "modified": "2024-05-24T13:06:12.824Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://ehauwaerts.github.io/annonatate/manifests/sharedcanvas.be/IIIF/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://sharedcanvas.be/IIIF/manifests/B_OB_MS321/canvases/a2ea1078-b4d0-11ec-aae3-81789315358a",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=227.27691650390625,677.9547729492188,931.0241088867188,656.7952270507812"
+        }
+    },
+    "id": "b34b7607-e8d5-4b58-b8f3-a083ce242738.json",
+    "motivation": "commenting"
+}
